@@ -12,11 +12,11 @@
 from random import randint
 
 N = int(input("Введите длинну массива "))
-X = int(input("Ввведите сисло, которое надо найти "))
+X = int(input("Ввведите число, которое надо найти "))
 array = []
 count = 0
 for i in range (N):
     array.append (randint(0,9))
-    if array [i] == x : count +=1
+    if array [i] == X : count +=1
 print (array)
 print ("Число", X, "содержится в массиве", count, "раз")
